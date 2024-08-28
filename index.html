@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choropleth Map</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="title">US Education Data by County</div>
+    <div id="description">This map shows the percentage of people with a bachelor's degree or higher in each US county.</div>
+    <svg id="choropleth"></svg>
+    <div id="legend"></div>
+    <div id="tooltip" style="position: absolute; visibility: hidden;"></div>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+    <script src="script.js"></script>
+</body>
+</html>
